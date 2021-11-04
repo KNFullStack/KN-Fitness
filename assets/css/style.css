@@ -1,0 +1,23 @@
+/* Navbar Styling */
+
+#navbar-logo {
+    width: 10vw;
+    height: 10vh;
+}
+
+nav {
+    background-color: #fff;
+}
+
+/* Hero Section Styling */
+
+#core-message {
+    background: url(/assets/images/hero-image.jpg) no-repeat center center;
+    height: 100vh;
+}
+
+/* testing */
+
+section {
+    height: 100vh;
+}
