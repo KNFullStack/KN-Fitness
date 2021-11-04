@@ -1,19 +1,37 @@
 /* Navbar Styling */
 
 #navbar-logo {
-    width: 10vw;
-    height: 10vh;
+    width: 192px;
+    height: 94px;
 }
 
 nav {
     background-color: #fff;
 }
 
+.nav-link {
+    font-weight: bold;
+}
+
 /* Hero Section Styling */
 
-#core-message {
+#overlay-parent {
     background: url(/assets/images/hero-image.jpg) no-repeat center center;
+    background-size: cover;
     height: 100vh;
+}
+
+#hero-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-bottom: 200px;
+}
+
+#hero-text-h1 {
+    font-size: 5rem;
 }
 
 /* testing */
