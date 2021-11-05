@@ -11,6 +11,8 @@ nav {
 
 .nav-link {
     font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
 }
 
 /* Hero Section Styling */
@@ -31,11 +33,38 @@ nav {
 }
 
 #hero-text-h1 {
-    font-size: 5rem;
+    font-size: 4rem;
+    text-align: center;
 }
+
+@media (min-width:768px) {
+    #hero-text-h1 {
+        font-size: 10rem;
+    }
+}
+
+@media (max-width:768px) {
+    #hero-text-h1 {
+        font-size: 5rem;
+    }
+}
+
+/* "Who are we?" Section Styling */
+
+
+
 
 /* testing */
 
 section {
     height: 100vh;
+}
+
+#our-services {
+    height: 100vh;
+}
+
+#our-services div div div {
+    height: 25vh;
+    background-color: whitesmoke;
 }
