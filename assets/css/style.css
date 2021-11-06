@@ -33,7 +33,6 @@ nav {
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
     color: #fff;
-    padding-bottom: 200px;
 }
 
 #hero-text-h1 {
@@ -55,8 +54,10 @@ nav {
 
 /* "Who are we?" Section Styling */
 
-#our-services {
-    height: 100vh;
+#our-services {}
+
+#our-services h1 {
+    font-size: 4rem;
 }
 
 #return-to-home-services {
@@ -64,11 +65,34 @@ nav {
     color: #fff;
 }
 
-/* testing */
 
-section {
-    height: 100vh;
+/* "Featured Product" Section Styling */
+
+#featured-product h1 {
+    font-size: 4rem;
 }
+
+/* "Timetable" Section Styling */
+
+#timetable h1 {
+    font-size: 4rem;
+}
+
+
+/* "Contact Us" Section Styling */
+
+#contact-us h1 {
+    font-size: 4rem;
+}
+
+/* "Footer" Section Styling */
+
+#socials a i {
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+/* testing */
 
 .top-layer-services {
     color: red;
@@ -76,4 +100,9 @@ section {
 
 .bottom-layer-services {
     color: purple;
+}
+
+#bg-image-timetable {
+
+    background-color: red;
 }
