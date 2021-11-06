@@ -79,6 +79,9 @@ nav {
     color: #fff;
 }
 
+.who-are-we-ul {
+    list-style-type: none;
+}
 
 /* "Featured Product" Section Styling */
 
