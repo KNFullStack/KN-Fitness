@@ -138,8 +138,7 @@ nav {
 
 /* testing */
 
-.top-layer-services {
+.top-layer-services,
+.bottom-layer-services {
     color: #B91546;
 }
-
-.bottom-layer-services {}
