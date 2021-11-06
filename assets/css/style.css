@@ -7,8 +7,8 @@
 /* Navbar Styling */
 
 #navbar-logo {
-    width: 192px;
-    height: 94px;
+    width: 180px;
+    height: 80px;
 }
 
 nav {
@@ -16,9 +16,19 @@ nav {
 }
 
 .nav-link {
-    font-weight: bold;
-    letter-spacing: 2px;
+    font-size: 1.5rem;
 }
+
+#nav-ul li a {
+    color: #B91546;
+}
+
+.nav-link:hover {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.navbar-toggler-icon {}
 
 /* Hero Section Styling */
 
@@ -48,7 +58,7 @@ nav {
 
 @media (max-width:768px) {
     #hero-text-h1 {
-        font-size: 5rem;
+        font-size: 7rem;
     }
 }
 
