@@ -8,6 +8,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+.btn-warning a {
+    color: #fff;
+    text-decoration: none;
+}
+
 /* Navbar Styling */
 
 #navbar-logo {
@@ -72,11 +77,6 @@ nav {
 
 #our-services h1 {
     font-size: 4rem;
-}
-
-#return-to-home-services {
-    text-decoration: none;
-    color: #fff;
 }
 
 .who-are-we-ul {
