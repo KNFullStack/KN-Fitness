@@ -4,6 +4,10 @@
     font-family: 'Bebas Neue', sans-serif;
 }
 
+.text-font {
+    font-family: "Roboto", sans-serif;
+}
+
 /* Navbar Styling */
 
 #navbar-logo {
@@ -88,6 +92,28 @@ nav {
     font-size: 4rem;
 }
 
+#bg-image-timetable {
+    background: url(/assets/images/kettlebell-class.jpg) no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+}
+
+#timetable-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+#timetable-overlay div {
+    display: inline;
+}
+
+/* "Gallery" Section Styling */
+
+#gallery h1 {
+    font-size: 4rem;
+}
 
 /* "Contact Us" Section Styling */
 
@@ -97,22 +123,20 @@ nav {
 
 /* "Footer" Section Styling */
 
+#socials {
+    border-top: 1px solid black;
+}
+
 #socials a i {
     font-size: 2rem;
     padding-left: 1rem;
+    color: #B91546;
 }
 
 /* testing */
 
 .top-layer-services {
-    color: red;
+    color: #B91546;
 }
 
-.bottom-layer-services {
-    color: purple;
-}
-
-#bg-image-timetable {
-
-    background-color: red;
-}
+.bottom-layer-services {}
