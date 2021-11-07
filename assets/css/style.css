@@ -54,20 +54,17 @@ nav {
     color: #fff;
 }
 
-#hero-text-h1 {
-    font-size: 4rem;
-    text-align: center;
-}
-
 @media (min-width:768px) {
     #hero-text-h1 {
         font-size: 10rem;
+        text-align: center;
     }
 }
 
 @media (max-width:768px) {
     #hero-text-h1 {
         font-size: 7rem;
+        text-align: center;
     }
 }
 
