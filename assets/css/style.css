@@ -45,8 +45,6 @@ nav {
     color: black;
 }
 
-.navbar-toggler-icon {}
-
 /* Hero Section Styling */
 
 #overlay-parent {
@@ -77,8 +75,6 @@ nav {
 }
 
 /* "Who are we?" Section Styling */
-
-#our-services {}
 
 #our-services h1 {
     font-size: 4rem;
