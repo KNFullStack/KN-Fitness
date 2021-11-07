@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ca6c583753.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>KN Fitness - Find your fitness.</title>
+    <title>KN Fitness - Find your fitness</title>
 
 </head>
 
@@ -131,7 +131,7 @@
                 <div class="col-lg-3 covid-icon text-font"><i class="fas fa-head-side-cough"></i>
                     <p>If you have a persistent cough, please follow the governments advise regarding testing and
                         isolation procedures.</p>
-                    <p><a href="https://www.gov.uk/coronavirus">Click For More Info</a></p>
+                    <p><a href="https://www.gov.uk/coronavirus" target="_blank">Click For More Info</a></p>
                 </div>
                 <div class="col-lg-3 covid-icon text-font"><i class="fas fa-spray-can"></i>
                     <p>Use the clean towels provided to clean equipment before and after use. Cleaning
@@ -187,31 +187,37 @@
             <div class="row">
                 <h1 class="col text-center my-5 title-font">Membership Enquires & Contact</h1>
             </div>
-            <form>
-                <div class="row text-center">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <label for="fullname" class="form-label text-font">Full name</label>
-                            <input type="text" class="form-control" id="fullname" placeholder="Enter your name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label text-font">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email address">
-                        </div>
-                        <div class="mb-5">
-                            <label for="query" class="form-label text-font">Query</label>
-                            <textarea class="form-control" id="query" rows="3"
-                                placeholder="Enter your query"></textarea>
-                        </div>
+            <div class="row text-center">
+                <form class="col-lg-6">
+                    <div class="mb-3">
+                        <label for="fullname" class="form-label text-font">Full name</label>
+                        <input type="text" class="form-control" id="fullname" placeholder="Enter your name" required>
                     </div>
-                    <div class="col-md-6">location map</div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label text-font">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email address"
+                            required>
+                    </div>
+                    <div class="mb-5">
+                        <label for="query" class="form-label text-font">Query</label>
+                        <textarea class="form-control" id="query" rows="3" placeholder="Enter your query"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning mb-5">Send Message</button>
+                </form>
+                <div class="col-lg-6 mb-4">
+                    <p class="text-font">Find us below:</p>
+                    <p class="text-font">123 Gym Lane, Newport, NP10 8DB.</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.530099329106!2d-2.976570684073057!3d51.57684731344382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDM0JzM2LjYiTiAywrA1OCcyNy44Ilc!5e0!3m2!1sen!2suk!4v1636301473869!5m2!1sen!2suk"
+                        width="460px" height="210px" title="google map showing location of the gym"></iframe>
                 </div>
-            </form>
+            </div>
         </div>
     </section>
     <footer id="socials">
         <div class="container-fluid">
-            <div class="row d-inline text-center ">
+            <div class="row d-inline text-center">
                 <div class="col">
                     <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
                     <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
