@@ -13,6 +13,10 @@
     text-decoration: none;
 }
 
+.btn {
+    font-family: "roboto", sans-serif;
+}
+
 /* Navbar Styling */
 
 #navbar-logo {
@@ -78,12 +82,57 @@ nav {
 
 .who-are-we-ul {
     list-style-type: none;
+    padding-left: 0;
+}
+
+.top-layer-services,
+.bottom-layer-services {
+    color: #B91546;
+}
+
+/* "COVID" Section Styling */
+
+.covid-icon i {
+    font-size: 100px;
+    margin-bottom: 1.5rem;
+    color: #B91546;
+}
+
+.covid-icon p {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.covid-icon p a {
+    color: #B91546;
+    text-decoration: none;
+}
+
+.covid-icon p a:hover {
+    color: black;
+}
+
+@media (max-width:768px) {
+    .covid-icon i {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width:992px) {
+    .covid-icon p {
+        margin-bottom: 2rem;
+    }
 }
 
 /* "Featured Product" Section Styling */
 
 #featured-product h1 {
     font-size: 4rem;
+}
+
+#protein-bar-image {
+    height: 500px;
+    width: auto;
 }
 
 /* "Timetable" Section Styling */
@@ -134,8 +183,3 @@ nav {
 }
 
 /* testing */
-
-.top-layer-services,
-.bottom-layer-services {
-    color: #B91546;
-}
