@@ -52,7 +52,7 @@ nav {
 #overlay-parent {
     background: url(/assets/images/hero-image.jpg) no-repeat center center;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
 }
 
 #hero-overlay {
@@ -93,6 +93,13 @@ nav {
 .bottom-layer-services {
     color: #B91546;
 }
+
+@media (max-width:768px) {
+    .bottom-layer-services h2 {
+        margin-top: 1rem;
+    }
+}
+
 
 /* "COVID" Section Styling */
 
