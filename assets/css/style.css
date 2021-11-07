@@ -17,6 +17,10 @@
     font-family: "roboto", sans-serif;
 }
 
+span {
+    color: #B91546;
+}
+
 /* Navbar Styling */
 
 #navbar-logo {
