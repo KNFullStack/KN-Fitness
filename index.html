@@ -169,7 +169,7 @@
                 <h1 class="col my-5 title-font">Current Timetable</h1>
             </div>
             <div class="row text-center" id="bg-image-timetable">
-                <div class="div" id="timetable-overlay">
+                <div class="col" id="timetable-overlay">
                     <div class="col-md-2">mon</div>
                     <div class="col-md-2">tue</div>
                     <div class="col-md-2">wed</div>
@@ -178,15 +178,63 @@
                     <div class="col-md-2">sat</div>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-6 text-font mt-3">
-                    <h3>Opening Times</h2>
-                        table etc here for times
-                </div>
-                <div class="col-md-6 text-font mt-3">
-                    <h3>Membership Prices</h2>
-                        table etc here for prices
-                </div>
+        </div>
+    </section>
+    <section id="time-prices-titles" class="container">
+        <div class="row text-center">
+            <div class="col-md-6 text-font mt-5" id="opening-times-container">
+                <h3>Opening Times</h3>
+                <table class="table mt-4">
+                    <thead>
+                        <tr>
+                            <th scope="col">Day</th>
+                            <th scope="col">Times</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday - Friday</td>
+                            <td>6am - 10pm</td>
+                        </tr>
+                        <tr>
+                            <td>Weekends</td>
+                            <td>8am - 6pm</td>
+                        </tr>
+                        <tr>
+                            <td>Bank Holidays</td>
+                            <td>10am - 4pm</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6 text-font mt-5">
+                <h3>Membership Prices</h3>
+                <table class="table mt-4">
+                    <thead>
+                        <tr>
+                            <th scope="col">Type</th>
+                            <th scope="col">Monthly</th>
+                            <th scope="col">Annaul</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Adults (18+)</td>
+                            <td>£30</td>
+                            <td>£300</td>
+                        </tr>
+                        <tr>
+                            <td>Juniors (Under 18s)</td>
+                            <td>£20</td>
+                            <td>£200</td>
+                        </tr>
+                        <tr>
+                            <td>Seniors (60+)</td>
+                            <td>£25</td>
+                            <td>£250</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
