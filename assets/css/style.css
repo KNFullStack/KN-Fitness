@@ -21,6 +21,12 @@ span {
     color: #B91546;
 }
 
+#top-layer-services-heading,
+#bottom-layer-services-heading,
+#featured-product-heading {
+    text-align: center;
+}
+
 /* Navbar Styling */
 
 #navbar-logo {
@@ -81,7 +87,7 @@ nav {
 }
 
 .who-are-we-ul {
-    list-style-type: none;
+    list-style-type: disc;
     padding-left: 0;
 }
 
@@ -96,6 +102,11 @@ nav {
     }
 }
 
+@media (min-width:768px) {
+    #who-are-we-text {
+        font-size: 1.25rem;
+    }
+}
 
 /* "COVID" Section Styling */
 
