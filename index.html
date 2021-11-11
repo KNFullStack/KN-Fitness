@@ -47,6 +47,8 @@
                             </li>
                             <li><a id="membership-onclick-override" class="dropdown-item title-font"
                                     href="#membership-container">Memberships</a></li>
+                            <li><a id="pt-onclick-override" class="dropdown-item title-font"
+                                    href="#personal-trainers-section">Personal Trainers</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -64,8 +66,6 @@
             <div id="hero-overlay" class="col d-flex align-items-center justify-content-center title-font">
                 <h1 id="hero-text-h1">Find <span>your</span> fitness <button type="button" class="btn btn-warning"><a
                             href="#contact-us">Enquire now!</a></button></h1>
-
-
             </div>
         </div>
     </header>
@@ -90,7 +90,7 @@
                     <h2 class="title-font pt-2" id="top-layer-services-heading"><i class="fas fa-dumbbell"></i>
                         Extensive range of equipment.</h2>
 
-                    <ul class="who-are-we-ul text-font">
+                    <ul class="text-font">
                         <li class="my-3">Array of Olympic Barbells, Hammer Strength machines, cable systems and dumbbell
                             rack up to
                             65kg.
@@ -101,18 +101,18 @@
                         <li class="my-3">Multiple studios for classes such as Spin, Yoga, Pilates and more.</li>
                     </ul>
                 </div>
-                <div class="col-md-6"><img class="img-fluid" src="assets/images/squat-rack.jpg"
-                        alt="Man looking into mirror next to dumbbell rack"></div>
+                <div class="col-md-6"><img class="img-fluid img-thumbnail" src="assets/images/squat-rack.jpg"
+                        alt="Man preparing to squat with a barbell and weights"></div>
             </div>
         </div>
         <div class="container pt-4">
             <div class="row text-start align-items-center justify-content-center bottom-layer-services g-5">
-                <div class="col-md-6"><img class="img-fluid" src="assets/images/crossfit.jpg"
+                <div class="col-md-6"><img class="img-fluid img-thumbnail" src="assets/images/crossfit.jpg"
                         alt="woman performing clean and jerk exercise with barbell"></div>
                 <div class="col-md-6">
                     <h2 class="title-font pt-2" id="bottom-layer-services-heading"><i class="fas fa-heart"></i> Other
                         facilities onsite</h2>
-                    <ul class="who-are-we-ul text-font">
+                    <ul class="text-font">
                         <li class="my-3">Fully qualified physiotherapist for musculoskeletal injury assessment and
                             treatment, mobility and posture analysis with corrective plans.
                         </li>
@@ -161,13 +161,13 @@
                 <h1 class="col text-center my-5 title-font">Featured Product</h1>
             </div>
             <div class="row text-center align-items-center justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" id="protein-bar-image" src="assets/images/protein-bar.jpg"
-                        alt="high protein snacks in a small bowl">
+                <div class="col-lg-6"><img class="img-fluid img-thumbnail" id="protein-bar-image"
+                        src="assets/images/protein-bar.jpg" alt="high protein snacks in a small bowl">
                 </div>
                 <div class="col-lg-6 text-font text-start">
                     <h2 class="title-font mt-4" id="featured-product-heading">Nut and raisin <span>protein</span>
                         granola bars!</h2>
-                    <ul class="who-are-we-ul text-font">
+                    <ul class="text-font">
                         <li class="my-3">Hit that sweet tooth with delicious protein granola bars made with cashews and
                             raisins.</li>
                         <li class="my-3">Perfect for a pre-workout energy <span>boost</span> or to <span>refuel</span>
@@ -254,7 +254,38 @@
                     </tbody>
                 </table>
             </div>
-        </div>
+            <div class="col text-font mt-5" id="personal-trainers-section">
+                <h3 class="title-font text-center mb-5">Personal Trainers</h3>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4"><img class="img-fluid img-thumbnail" src="assets/images/pt1.jpg"
+                            alt="">
+                        <h4 class="mt-3">Rebecca Cotton</h4>
+                        <ul class="text-font">
+                            <li>Level 3 Personal Trainer</li>
+                            <li>Nutrition & Weight Management</li>
+                            <li>Pre and Postnatal Exercise Specialist</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-lg-4"><img class="img-fluid img-thumbnail" src="assets/images/pt2.jpg"
+                            alt="">
+                        <h4 class="mt-3">Jack Wilcox</h4>
+                        <ul class="text-font">
+                            <li>Fully Qualified Physiotherapist</li>
+                            <li>Level 4 Nutrition Coaching</li>
+                            <li>Behaviour Change Coaching</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-lg-4"><img class="img-fluid img-thumbnail" src="assets/images/pt3.jpg"
+                            alt="">
+                        <h4 class="mt-3">James Walker</h4>
+                        <ul class="text-font">
+                            <li>Level 4 Personal Trainer</li>
+                            <li>Lifestyle Transformation Coach</li>
+                            <li>Corrective Exercise Specialist</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
     </section>
     <section id="gallery">
         <div class="container">
@@ -262,14 +293,20 @@
                 <h1 class="col text-center my-5 title-font">Gallery</h1>
             </div>
             <div class="row text-center text-font mb-2">
-                <div class="col-lg-4"><img class="img-thumbnail" src="assets/images/gallery1.jpg" alt=""></div>
-                <div class="col-lg-4"><img class="img-thumbnail" src="assets/images/gallery2.jpg" alt=""></div>
-                <div class="col-lg-4"><img class="img-thumbnail" src="assets/images/gallery3.jpg" alt=""></div>
+                <div class="col-lg-4"><img class="img-thumbnail" src="assets/images/gallery1.jpg"
+                        alt="gym members laying on floor fist bumping after workout"></div>
+                <div class="col-lg-4 d-none d-lg-block"><img class="img-thumbnail" src="assets/images/gallery2.jpg"
+                        alt="gym members laying on floor after workout"></div>
+                <div class="col-lg-4 d-none d-lg-block"><img class="img-thumbnail" src="assets/images/gallery3.jpg"
+                        alt="rack dumbbells against a wall"></div>
             </div>
             <div class="row text-center text-font">
-                <div class="col-lg-4"><img class="img-thumbnail" src="assets/images/gallery4.jpg" alt=""></div>
-                <div class="col-lg-4"><img class="img-thumbnail" src="assets/images/gallery5.jpg" alt=""></div>
-                <div class="col-lg-4"><img class="img-thumbnail" src="assets/images/gallery6.jpg" alt=""></div>
+                <div class="col-lg-4 d-none d-lg-block"><img class="img-thumbnail" src="assets/images/gallery4.jpg"
+                        alt="breakfast bowl with various seeds and dried fruits"></div>
+                <div class="col-lg-4"><img class="img-thumbnail" src="assets/images/gallery5.jpg"
+                        alt="weightlifting bumper plates laying on the floor"></div>
+                <div class="col-lg-4"><img class="img-thumbnail" src="assets/images/gallery6.jpg"
+                        alt="raspberry and apple fruit smoothie in a glass"></div>
             </div>
         </div>
     </section>
@@ -313,6 +350,7 @@
                     <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
                     <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
                     <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#navbar-logo"><i class="fas fa-home"></i></a>
                 </div>
             </div>
         </div>

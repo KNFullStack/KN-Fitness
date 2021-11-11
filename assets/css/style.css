@@ -29,7 +29,8 @@ span {
 
 #timetable-onclick-override:active,
 #opening-onclick-override:active,
-#membership-onclick-override:active {
+#membership-onclick-override:active,
+#pt-onclick-override:active {
     background-color: #B91546 !important;
     color: #fff;
 }
@@ -91,11 +92,6 @@ nav {
 
 #our-services h1 {
     font-size: 4rem;
-}
-
-.who-are-we-ul {
-    list-style-type: disc;
-    padding-left: 0;
 }
 
 .top-layer-services,
