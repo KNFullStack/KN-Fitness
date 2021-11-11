@@ -203,4 +203,8 @@ nav {
     color: #B91546;
 }
 
+#socials a i:hover {
+    color: black;
+}
+
 /* testing */
