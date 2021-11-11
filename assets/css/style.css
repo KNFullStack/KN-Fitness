@@ -27,12 +27,22 @@ span {
     text-align: center;
 }
 
+
+#top-layer-services-heading,
+#bottom-layer-services-heading {
+    color: #B91546;
+}
+
 #timetable-onclick-override:active,
 #opening-onclick-override:active,
 #membership-onclick-override:active,
 #pt-onclick-override:active {
     background-color: #B91546 !important;
     color: #fff;
+}
+
+hr {
+    color: black;
 }
 
 /* Navbar Styling */
@@ -59,12 +69,16 @@ nav {
     color: black;
 }
 
+nav {
+    border-bottom: 1px solid black;
+}
+
 /* Hero Section Styling */
 
 #overlay-parent {
     background: url(/assets/images/hero-image.jpg) no-repeat center center;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
 }
 
 #hero-overlay {
@@ -92,11 +106,6 @@ nav {
 
 #our-services h1 {
     font-size: 4rem;
-}
-
-.top-layer-services,
-.bottom-layer-services {
-    color: #B91546;
 }
 
 @media (max-width:768px) {
