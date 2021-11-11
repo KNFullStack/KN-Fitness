@@ -27,6 +27,13 @@ span {
     text-align: center;
 }
 
+#timetable-onclick-override:active,
+#opening-onclick-override:active,
+#membership-onclick-override:active {
+    background-color: #B91546 !important;
+    color: #fff;
+}
+
 /* Navbar Styling */
 
 #navbar-logo {

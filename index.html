@@ -35,8 +35,19 @@
                     <li class="nav-item">
                         <a class="nav-link title-font" href="#our-services">Who are we?</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link title-font" href="#timetable">Timetable</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle title-font" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Info</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a id="timetable-onclick-override" class="dropdown-item title-font"
+                                    href="#timetable">Timetable</a>
+                            </li>
+                            <li><a id="opening-onclick-override" class="dropdown-item title-font"
+                                    href="#opening-times-container">Opening Times</a>
+                            </li>
+                            <li><a id="membership-onclick-override" class="dropdown-item title-font"
+                                    href="#membership-container">Memberships</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link title-font" href="#gallery">Gallery</a>
@@ -78,6 +89,7 @@
                 <div class="col-md-6">
                     <h2 class="title-font pt-2" id="top-layer-services-heading"><i class="fas fa-dumbbell"></i>
                         Extensive range of equipment.</h2>
+
                     <ul class="who-are-we-ul text-font">
                         <li class="my-3">Array of Olympic Barbells, Hammer Strength machines, cable systems and dumbbell
                             rack up to
@@ -213,7 +225,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-md-6 text-font mt-5">
+            <div class="col-md-6 text-font mt-5" id="membership-container">
                 <h3 class="title-font">Membership Prices</h3>
                 <table class="table mt-4">
                     <thead>
