@@ -180,21 +180,12 @@ nav {
 #bg-image-timetable {
     background: url(/assets/images/kettlebell-class.jpg) no-repeat center center;
     background-size: cover;
-    height: 25vh;
 }
 
 #timetable-overlay {
     background: rgba(0, 0, 0, 0.8);
     color: #fff;
     margin: 0;
-}
-
-@media (max-width:992px) {
-    #bg-image-timetable {
-        background: url(/assets/images/kettlebell-class.jpg) no-repeat center center;
-        background-size: cover;
-        height: 100vh;
-    }
 }
 
 /* "Gallery" Section Styling */
