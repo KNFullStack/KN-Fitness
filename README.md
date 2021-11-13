@@ -1,108 +1,85 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![KN-Fitness logo](https://i.ibb.co/gW6V9v1/kn-fitness-logo-small.png)
 
-Welcome KNFullStack,
+# Milestone Project 1 - KN Fitness
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# PROJECT LINK HERE ONCE DEPLOYED
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# Introduction
 
-## Gitpod Reminders
+The project was to create a website for a local, family run gym that is looking to reach out to new potential members in order to encourage more visits and memberships.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# UX
+## User Stories
+### First Time Visitors
+* What would I want to see as a first time visitor?
+  1. Understand where the gym is located.
+  2. Learn what type of gym-goer the gym is catered for, whether that's CrossFit type workouts, bodybuilding or cardio based workouts.
+  3. In light of COVID-19, how visitors can maintain their safety and what measures have been put into place to mitigate risks.
+  4. Any other facilities on site that would be of benefit to me.
+### Returning Visitors
+* What would I want to see as a returning visitor?
+  1. If I liked the look of the website upon first visit and liked the sound of the gym I'd want to know more about the prices.
+  2. I'd like to know if there are regular classes each day that I'd be interested in and what the schedule is.
+  3. What the opening times are and if this fits my working patterns.
+  4. How to get in contact with the gym.
+### Frequent Users
+* What would I want to see as a frequent visitor?
+  1. If the timetable has changed regarding classes.
+  2. If there are any new personal trainers that have joined the team.
+  3. A new featured product that I may be interested in.
+## Design
+Opted for a single page website that is divided into multiple sections:
+  * navigation bar that is fixed to the top of the page
+  * a main landing page with a stand-out button to click for enquires 
+  * a section describing the gym and current COVID-19 precautions
+  * a current feature product page
+  * general information incluiding class timetable, opening times, prices and personal trainers
+  * gallery
+  * contact form and a map showing the gym's location
+  * footer containing links to the gym's social media pages.
+### Colors
+The main colors for the website are black, white and #B91546.
+### Fonts
+Both fonts used are from Google Fonts.
+  * Headings use the font "Bebas Neue", created by Ryoichi Tsunekawa.
+  * Normal text uses the font "Roboto", created by Christian Robertson.
+### Images
 
-`python3 -m http.server`
+### Screenshots
+1
+2
+3
 
-A blue button should appear to click: _Make Public_,
+## Wireframes
+link to it?
 
-Another blue button should appear to click: _Open Browser_.
+# Features
+Some of the features incorporated into the website are
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Technologies
 
-A blue button should appear to click: _Make Public_,
+# Testing
+## HTML Validation
+## CSS Validation
+## User Scenarios
+## Further Testing
+e.g. browser types, responsiveness, orientations
+## Known Bugs
+## Lighthouse Results
+### Performance
+### Accessibility
+enquire now text was original white and this was flagged as an issue, therefore changed in CSS.
+### Best Practices
+### SEO
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# Deployment
+## Publishing
+## Forking
+## Local Clone
 
-To log into the Heroku toolbelt CLI:
+# Acknowledgements
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+https://github.com/Code-Institute-Solutions/SampleREADME
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
