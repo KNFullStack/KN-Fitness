@@ -41,6 +41,21 @@ span {
     color: #fff;
 }
 
+#our-services {
+    scroll-margin-top: 70px;
+}
+
+#timetable,
+#gallery {
+    scroll-margin-top: 80px;
+}
+
+#opening-times-container,
+#membership-container,
+#personal-trainers-section {
+    scroll-margin-top: 110px;
+}
+
 hr {
     color: black;
 }
