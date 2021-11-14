@@ -39,11 +39,6 @@ Opted for a single page website that is divided into multiple sections:
   * footer containing links to the gym's social media pages.
 ### Colors
 The main colors for the website are black, white and #B91546.
-### Fonts
-Both fonts used are from Google Fonts.
-  * Headings use the font "Bebas Neue", created by Ryoichi Tsunekawa.
-  * Normal text uses the font "Roboto", created by Christian Robertson.
-### Images
 
 ### Screenshots
 Here are some example screenshots of the website's landing page on desktop and in mobile view.
@@ -63,16 +58,23 @@ Some of the key features incorporated into the website include responsiveness fo
 # Technologies
 Technologies used are as follows.
 ## Languages
-* HTML5
-* CSS3
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
 ## Libraries, Frameworks & Programs Used
-1. Bootstrap 5
-2. Balsamiq
-3. Font Awesome
-4. Google Fonts
-5. Git
-6. GitHub
-7. GitPod
+1. [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+   * Multiple features of Bootstrap 5 were utilised to create the website. Including general layouts and responsiveness, the sticky navbar and collapsible links.
+2. [Balsamiq](https://balsamiq.com/)
+   * Used to create the wireframes when starting the design.
+3. [Font Awesome](https://fontawesome.com/)
+   * Use for multiple icons throughout the website. 
+4. [Google Fonts](https://fonts.google.com/)
+   * Used to incorporate the fonts "Bebas Neue" by Ryoichi Tsunekawa and "Roboto" by Christian Robertson.
+5. [Git](https://git-scm.com/)
+   * Used for version control to add, commit, and push files to GitHub.
+6. [GitHub](https://github.com/)
+   * Used as a storage location for the website's content, including code and assets.
+7. [GitPod](https://www.gitpod.io/)
+   * An online IDE used to write and test code that is written.
 
 # Testing
 ## HTML Validation
