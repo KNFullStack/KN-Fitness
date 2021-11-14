@@ -1,15 +1,13 @@
 ![KN-Fitness logo](/assets/images/kn-fitness-logo-small.png) 
-
-# Table of Contents
-* [Purpose](https://github.com/KNFullStack/KN-Fitness#introduction)
-
 # Milestone Project 1 - KN Fitness
+# Table of Contents
+* [Introduction](https://github.com/KNFullStack/KN-Fitness#introduction)
 
-# PROJECT LINK HERE ONCE DEPLOYED
 
+You can find the published website here: [KN_Fitness](link here)
 # Introduction
 
-The project was to create a website for a local, family run gym that is looking to reach out to new potential members in order to encourage more visits and memberships.
+The project is part of a Full Stack CodeInstitute course. This is Milestone Project 1. This project was to create a website for a local, family run gym that is looking to reach out to new potential members in order to encourage more visits and memberships.
 
 # User Experience Design
 ## User Stories
@@ -30,6 +28,9 @@ The project was to create a website for a local, family run gym that is looking 
   1. If the timetable has changed regarding classes.
   2. If there are any new personal trainers that have joined the team.
   3. A new featured product that I may be interested in.
+## Structure
+how does structure fit with user stories from above
+what other structure have i chosen and why
 ## Design
 Opted for a single page website that is divided into multiple sections:
   * navigation bar that is fixed to the top of the page
@@ -41,9 +42,21 @@ Opted for a single page website that is divided into multiple sections:
   * contact form and a map showing the gym's location
   * footer containing links to the gym's social media pages.
 ### Colors
-The main colors for the website are black, white and #B91546.
+The main colors for the website are black (#000000), white (#FFFFFF) and #B91546.
+### Typography
+### Images
+### Wireframes
+Wireframes can be found in the "assets" folder. It contains a design for the desktop and mobile version of the website.
+See links for PDF's below:
+1. mobile
+2. desktop
+
+### Design Deviations
+## Limitations
 
 ### Screenshots
+
+# http://techsini.com/multi-mockup/index.php replace images below with this.
 Here are some example screenshots of the website's landing page on desktop and in mobile view.
   * Desktop: ![Landing Page Desktop](/assets/images/landing-page-desktop.png)
   * Mobile - Portrait:
@@ -52,11 +65,10 @@ Here are some example screenshots of the website's landing page on desktop and i
   * Mobile - Landscape: ![Landing Page Desktop](/assets/images/landing-page-mobile-landscape.PNG)
 
 
-## Wireframes
-The original design wireframe filename is "KN Fitness.bmpr". It contains a design for the desktop and mobile version of the website.
-
 # Features
+## Current Features
 Some of the key features incorporated into the website include responsiveness for multiple screen sizes and orientations. A fixed-top navigation bar to allow easy navigation been the page sections and the content, which also collapses on smaller screen sizes. Certain objects are also removed on mobile views to reduce the amount of scrolling required, such as reducing the number of gallery images.
+## Future Features
 
 # Technologies
 Technologies used are as follows.
@@ -78,14 +90,20 @@ Technologies used are as follows.
    * Used as a storage location for the website's content, including code and assets.
 7. [GitPod](https://www.gitpod.io/)
    * An online IDE used to write and test code that is written.
+8. [Techsini](http://techsini.com/multi-mockup/index.php)
+   * Used to generate the mockup image in this README file, see above.
 
 # Testing
+testing plan - what things must i check?
+
+e.g. browser types, responsiveness, orientations
+
+provide link to an excel logging all my testing
 ## HTML Validation
 ## CSS Validation
 ## User Scenarios
-## Further Testing
-e.g. browser types, responsiveness, orientations
 ## Known Bugs
+what did i find and how did i fix them?
 ## Lighthouse Results
 ### Performance
 ### Accessibility
@@ -95,11 +113,19 @@ enquire now text was original white and this was flagged as an issue, therefore 
 
 
 # Deployment
+## Project creation
+chrome addon, link to template, green gitpod button, etc
 ## Publishing
 ## Forking
 ## Local Clone
 
 # Acknowledgements
+## Code
+## Content
+## Media
+## Help
+
+# Further Comments
 
 
 https://github.com/Code-Institute-Solutions/SampleREADME
