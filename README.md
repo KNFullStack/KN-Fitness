@@ -1,4 +1,4 @@
-![KN-Fitness logo](https://i.ibb.co/gW6V9v1/kn-fitness-logo-small.png)
+![KN-Fitness logo](/assets/images/kn-fitness-logo-small.png) 
 
 # Milestone Project 1 - KN Fitness
 
@@ -46,17 +46,33 @@ Both fonts used are from Google Fonts.
 ### Images
 
 ### Screenshots
-1
-2
-3
+Here are some example screenshots of the website's landing page on desktop and in mobile view.
+  * Desktop: ![Landing Page Desktop](/assets/images/landing-page-desktop.png)
+  * Mobile - Portrait:
+
+  ![Landing Page Desktop](/assets/images/landing-page-mobile-portrait.PNG)
+  * Mobile - Landscape: ![Landing Page Desktop](/assets/images/landing-page-mobile-landscape.PNG)
+
 
 ## Wireframes
-link to it?
+The original design wireframe filename is "KN Fitness.bmpr". It contains a design for the desktop and mobile version of the website.
 
 # Features
-Some of the features incorporated into the website are
+Some of the key features incorporated into the website include responsiveness for multiple screen sizes and orientations. A fixed-top navigation bar to allow easy navigation been the page sections and the content, which also collapses on smaller screen sizes. Certain objects are also removed on mobile views to reduce the amount of scrolling required, such as reducing the number of gallery images.
 
 # Technologies
+Technologies used are as follows.
+## Languages
+* HTML5
+* CSS3
+## Libraries, Frameworks & Programs Used
+1. Bootstrap 5
+2. Balsamiq
+3. Font Awesome
+4. Google Fonts
+5. Git
+6. GitHub
+7. GitPod
 
 # Testing
 ## HTML Validation
