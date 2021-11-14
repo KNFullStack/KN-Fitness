@@ -1,5 +1,8 @@
 ![KN-Fitness logo](/assets/images/kn-fitness-logo-small.png) 
 
+# Table of Contents
+* [Purpose](https://github.com/KNFullStack/KN-Fitness#introduction)
+
 # Milestone Project 1 - KN Fitness
 
 # PROJECT LINK HERE ONCE DEPLOYED
@@ -8,7 +11,7 @@
 
 The project was to create a website for a local, family run gym that is looking to reach out to new potential members in order to encourage more visits and memberships.
 
-# UX
+# User Experience Design
 ## User Stories
 ### First Time Visitors
 * What would I want to see as a first time visitor?
