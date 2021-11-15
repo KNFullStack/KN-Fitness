@@ -2,45 +2,101 @@
 # Milestone Project 1 - KN Fitness
 # Table of Contents
 * [Introduction](https://github.com/KNFullStack/KN-Fitness#introduction)
+* [User Experience Design](https://github.com/KNFullStack/KN-Fitness#user-experience-design)  
+  * [User Stories](https://github.com/KNFullStack/KN-Fitness#user-stories)
+    * [First Time Visitors](https://github.com/KNFullStack/KN-Fitness#first-time-visitors)
+    * [Returning Visitors](https://github.com/KNFullStack/KN-Fitness#returning-visitors)
+    * [Frequent Users](https://github.com/KNFullStack/KN-Fitness#frequent-users)
+  * [Structure](https://github.com/KNFullStack/KN-Fitness#structure)
+  * [Design](https://github.com/KNFullStack/KN-Fitness#design)
+    * [Colors](https://github.com/KNFullStack/KN-Fitness#colors)
+    * [Typography](https://github.com/KNFullStack/KN-Fitness#typography)
+    * [Images](https://github.com/KNFullStack/KN-Fitness#images)
+    * [Wireframes](https://github.com/KNFullStack/KN-Fitness#wireframes)
+    * [Design Deviations](https://github.com/KNFullStack/KN-Fitness#design-deviations)
+  * [Limitations](https://github.com/KNFullStack/KN-Fitness#limitations)
+* [Features]()
+  * [Current Features]()
+  * [Future Features]()
+* [Technologies](https://github.com/KNFullStack/KN-Fitness#technologies)
+  * [Languages](https://github.com/KNFullStack/KN-Fitness#languages)
+  * [Libraries, Frameworks & Programs Used](https://github.com/KNFullStack/KN-Fitness#libraries-frameworks--programs-used)
+* [Testing](https://github.com/KNFullStack/KN-Fitness#testing)
+  * [Validation](https://github.com/KNFullStack/KN-Fitness#validation)
+    * [HTML Validation](https://github.com/KNFullStack/KN-Fitness#html-validation)
+    * [CSS Validation](https://github.com/KNFullStack/KN-Fitness#css-validation)
+  * [User Scenarios](https://github.com/KNFullStack/KN-Fitness#user-scenarios)
+  * [Known Bugs](https://github.com/KNFullStack/KN-Fitness#known-bugs)
+  * [Lighthouse Results](https://github.com/KNFullStack/KN-Fitness#lighthouse-results)
+    * [Performance](https://github.com/KNFullStack/KN-Fitness#performance)
+    * [Accessibility](https://github.com/KNFullStack/KN-Fitness#accessibility)
+    * [Best Practices](https://github.com/KNFullStack/KN-Fitness#best-practices)
+    * [SEO](https://github.com/KNFullStack/KN-Fitness#seo)
+* [Deployment](https://github.com/KNFullStack/KN-Fitness#deployment)
+  * [Publishing](https://github.com/KNFullStack/KN-Fitness#publishing)
+  * [Forking](https://github.com/KNFullStack/KN-Fitness#forking)
+  * [Local Clone](https://github.com/KNFullStack/KN-Fitness#local-clone)
+* [Acknowledgements](https://github.com/KNFullStack/KN-Fitness#acknowledgements)
+  * [Code](https://github.com/KNFullStack/KN-Fitness#code)
+  * [Content](https://github.com/KNFullStack/KN-Fitness#content)
+  * [Media](https://github.com/KNFullStack/KN-Fitness#media)
+  * [Help](https://github.com/KNFullStack/KN-Fitness#help)
+* [Further Comments](https://github.com/KNFullStack/KN-Fitness#further-comments)
 
-
-You can find the published website here: [KN_Fitness](link here)
+You can find the published website here: [KN Fitness](link here)
 # Introduction
 
-The project is part of a Full Stack CodeInstitute course. This is Milestone Project 1. This project was to create a website for a local, family run gym that is looking to reach out to new potential members in order to encourage more visits and memberships.
+The project is part of a Full Stack Developer course run by CodeInstitute. This is Milestone Project 1. This project was to create a website for a local, family run gym that is looking to reach out to new potential members in order to encourage more visits and memberships.
+
+## KN Fitness Responsive Website
+
+http://techsini.com/multi-mockup/index.php replace images below with this.
+
+A mockup of the website can be seen below:
+
+![Website Mockup Image](/assets/images/landing-page-mobile-portrait.PNG)
 
 # User Experience Design
 ## User Stories
 ### First Time Visitors
 * What would I want to see as a first time visitor?
-  1. Understand where the gym is located.
+  1. Understand where the gym is located and if that's a suitable location based on where I live, or my commute.
   2. Learn what type of gym-goer the gym is catered for, whether that's CrossFit type workouts, bodybuilding or cardio based workouts.
-  3. In light of COVID-19, how visitors can maintain their safety and what measures have been put into place to mitigate risks.
+  3. In light of COVID-19, how visitors can maintain safety and what measures are in place to mitigate risks.
   4. Any other facilities on site that would be of benefit to me.
+  6. The ability to easily navigate the website to find the information that is important.
 ### Returning Visitors
 * What would I want to see as a returning visitor?
-  1. If I liked the look of the website upon first visit and liked the sound of the gym I'd want to know more about the prices.
+  1. I'd want to know more about the prices.
   2. I'd like to know if there are regular classes each day that I'd be interested in and what the schedule is.
   3. What the opening times are and if this fits my working patterns.
   4. How to get in contact with the gym.
+  5. If there are any social media accounts to check out the gym further.
 ### Frequent Users
 * What would I want to see as a frequent visitor?
   1. If the timetable has changed regarding classes.
   2. If there are any new personal trainers that have joined the team.
   3. A new featured product that I may be interested in.
+  4. If there have been new images added to the gallery.
 ## Structure
-how does structure fit with user stories from above
-what other structure have i chosen and why
+Shown below are elements of the websites that correspond to potential User Stories:
+* A navigation bar that is fixed to the top of the page.
+> The ability to easily navigate the website to find the information that is important.
+* A landing page with a call to action button for enquires.
+> How to get in contact with the gym.
+* A section describing the gym and current COVID-19 precautions
+> In light of COVID-19, how visitors can maintain safety and what measures are in place to mitigate risks.<br>Learn what type of gym-goer the gym is catered for, whether that's CrossFit type workouts, bodybuilding or cardio based workouts.<br>Any other facilities on site that would be of benefit to me.
+* A current featured product section.
+> A new featured product that I may be interested in.
+* General information incluiding a class timetable, opening times, prices and personal trainers.
+> I'd want to know more about the prices.<br>I'd like to know if there are regular classes each day that I'd be interested in and what the schedule is.<br>What the opening times are and if this fits my working patterns.<br>If the timetable has changed regarding classes.<br>If there are any new personal trainers that have joined the team.
+
+
+* gallery
+* contact form and a map showing the gym's location
+* footer containing links to the gym's social media pages.
+
 ## Design
-Opted for a single page website that is divided into multiple sections:
-  * navigation bar that is fixed to the top of the page
-  * a main landing page with a stand-out button to click for enquires 
-  * a section describing the gym and current COVID-19 precautions
-  * a current feature product page
-  * general information incluiding class timetable, opening times, prices and personal trainers
-  * gallery
-  * contact form and a map showing the gym's location
-  * footer containing links to the gym's social media pages.
 ### Colors
 The main colors for the website are black (#000000), white (#FFFFFF) and #B91546.
 ### Typography
@@ -54,20 +110,10 @@ See links for PDF's below:
 ### Design Deviations
 ## Limitations
 
-### Screenshots
-
-# http://techsini.com/multi-mockup/index.php replace images below with this.
-Here are some example screenshots of the website's landing page on desktop and in mobile view.
-  * Desktop: ![Landing Page Desktop](/assets/images/landing-page-desktop.png)
-  * Mobile - Portrait:
-
-  ![Landing Page Desktop](/assets/images/landing-page-mobile-portrait.PNG)
-  * Mobile - Landscape: ![Landing Page Desktop](/assets/images/landing-page-mobile-landscape.PNG)
-
-
 # Features
 ## Current Features
-Some of the key features incorporated into the website include responsiveness for multiple screen sizes and orientations. A fixed-top navigation bar to allow easy navigation been the page sections and the content, which also collapses on smaller screen sizes. Certain objects are also removed on mobile views to reduce the amount of scrolling required, such as reducing the number of gallery images.
+Some of the key features incorporated into the website include responsiveness for multiple screen sizes and orientations. A fixed top navigation bar to allow easy navigation between the page sections and the content, this helps reduce the amount of scrolling needed to get to different sections, especially on mobile. This navigation bar collapses on smaller screen sizes. Certain objects are also removed on smaller viewing windows to reduce the amount of scrolling required, such as reducing the number of gallery images.
+
 ## Future Features
 
 # Technologies
@@ -99,8 +145,9 @@ testing plan - what things must i check?
 e.g. browser types, responsiveness, orientations
 
 provide link to an excel logging all my testing
-## HTML Validation
-## CSS Validation
+## Validation
+### HTML Validation
+### CSS Validation
 ## User Scenarios
 ## Known Bugs
 what did i find and how did i fix them?
