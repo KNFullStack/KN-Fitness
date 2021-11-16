@@ -108,7 +108,7 @@ The logo that has been created was made using [myfreelogomaker](https://myfreelo
 Wireframes can be found in the "assets" folder. It contains a design for the desktop and mobile version of the website.
 See links for PDF's below:
 1. [Mobile Wireframe](/assets/readme-content/wireframe-mobile.pdf)
-2. [Desktop Wireframe](/assets/readme-content/wireframe-dekstop.pdf)
+2. [Desktop Wireframe](/assets/readme-content/wireframe-desktop.pdf)
 
 ### Design Deviations
 ## Limitations
