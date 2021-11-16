@@ -109,21 +109,42 @@ Wireframes can be found in the "assets" folder. It contains a design for the des
 See links for PDF's below:
 1. [Mobile Wireframe](/assets/readme-content/wireframe-mobile.pdf)
 2. [Desktop Wireframe](/assets/readme-content/wireframe-desktop.pdf)
+    * Note - images not shown in README directly as the image dimensions are large.
 
 ### Design Deviations
+Compared to the original Wireframe there have been multiple deviations.
+* The "Who are we?" section.
+> Once this section was beginning to take shape, it was apparent that a 3x3 container with images and text content would not be an appropriate size, therefore it was reduced to a 2x2 container with 2 images and 2 text areas.
+* A COVID-19 section in the "Who are we?" section, as one of the text boxes.
+> A better way of displaying the information would be for it to take a row up for itself, to highlight the importance of this section, and to make it easier to see for people who have concerns about it, showing them that it is not a side thought.
+* Personal Trainer section and a Gallery section.
+> Again, once the project had started and the sections were being put together, it was obvious that a section highlighting the personal trainers and a section showing off some images of the gym and its members would be very beneficial. It would help users identify with the gym, the activities, and recognise some people at the gym upon their first visit.
+
+These changes would bring a more positive experience to the user.
+
 ## Limitations
+Currently there some limitations of the website. As shown below:
+* There is no way to book classes.
+* There is no way to purchase membership online, or to purchase products online.
+* The contact form doesn't currently pass information anywhere.
 
 # Features
 ## Current Features
-Some of the key features incorporated into the website include responsiveness for multiple screen sizes and orientations. A fixed top navigation bar to allow easy navigation between the page sections and the content, this helps reduce the amount of scrolling needed to get to different sections, especially on mobile. This navigation bar collapses on smaller screen sizes. Certain objects are also removed on smaller viewing windows to reduce the amount of scrolling required, such as reducing the number of gallery images.
+Some of the key features incorporated into the website include responsiveness for multiple screen sizes and orientations. A fixed top navigation bar to allow easy navigation between the page sections and the content, this helps reduce the amount of scrolling needed to get to different sections, especially on mobile. This navigation bar collapses on smaller screen sizes. Certain objects are also removed on smaller viewing windows to reduce the amount of scrolling required, such as reducing the number of gallery images. An embedded map is also present to highlight the location of the gym.
 
 ## Future Features
+Features that could be released in subsequent versions include:
+* Enquires being sent straight to personal trainers.
+* An online shop for products, or a page to highlight current products and special offers.
 
 # Technologies
 Technologies used are as follows.
 ## Languages
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+  * Used as the main language to code the website.
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
+  * Used to incorporate custom styling into the website.
+
 ## Libraries, Frameworks & Programs Used
 1. [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
    * Multiple features of Bootstrap 5 were utilised to create the website. Including general layouts and responsiveness, the sticky navbar and collapsible links.
@@ -141,13 +162,24 @@ Technologies used are as follows.
    * An online IDE used to write and test code that is written.
 8. [Techsini](http://techsini.com/multi-mockup/index.php)
    * Used to generate the mockup image in this README file, see above.
+9. [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
+   * Used to test different CSS styles in the browser, inspect pages for more information about elements and general debugging.
 
 # Testing
-testing plan - what things must i check?
 
-e.g. browser types, responsiveness, orientations
+Due to the website having no backend functionality, the testing procedure is based on the visual aspect of the website. High level testing includes:
+* Running the website on 3 different browsers, Google Chrome, Mozilla Firefox and Opera.  
+* Ensuring the website has a responsiveness on multiple screen sizes, and is able to render correctly on different browser sizes. Chrome Dev Tools will be used to simulate different screen sizes. Screen sizes to be tested are a minimum of 375px in width and include:
+   * iPhone 6/7/8 in portrait and landscape views.
+   * iPad Pro in portrait and landscape views.
+   * Desktop view.
+* No layout items in the containers overlapping other layout items.
+* Links in the navigation bar to take the user to the correct section.
+* External links to open in a new tab.
+* Contact form to require an input in each field prior to submission.
 
 provide link to an excel logging all my testing
+
 ## Validation
 ### HTML Validation
 ### CSS Validation
