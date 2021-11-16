@@ -88,24 +88,27 @@ Shown below are elements of the websites that correspond to potential User Stori
 > In light of COVID-19, how visitors can maintain safety and what measures are in place to mitigate risks.<br>Learn what type of gym-goer the gym is catered for, whether that's CrossFit type workouts, bodybuilding or cardio based workouts.<br>Any other facilities on site that would be of benefit to me.
 * A current featured product section.
 > A new featured product that I may be interested in.
-* General information incluiding a class timetable, opening times, prices and personal trainers.
+* General information including a class timetable, opening times, prices and personal trainers.
 > I'd want to know more about the prices.<br>I'd like to know if there are regular classes each day that I'd be interested in and what the schedule is.<br>What the opening times are and if this fits my working patterns.<br>If the timetable has changed regarding classes.<br>If there are any new personal trainers that have joined the team.
-
-
-* gallery
-* contact form and a map showing the gym's location
-* footer containing links to the gym's social media pages.
+* A gallery, showing images from the gym and its members.
+> If there have been new images added to the gallery.
+* Contact form and a map showing the gym's location.
+> How to get in contact with the gym.<br>Understand where the gym is located and if that's a suitable location based on where I live, or my commute.
+* A footer containing links to the gym's social media pages.
+> If there are any social media accounts to check out the gym further.
 
 ## Design
 ### Colors
-The main colors for the website are black (#000000), white (#FFFFFF) and #B91546.
+The main colors for the website are black (#000000), white (#FFFFFF) and pastel-like red color (#B91546).
 ### Typography
+The text throughout the website uses the **Roboto** font, while the headers use the **Bebas Neue** font.
 ### Images
+The logo that has been created was made using [myfreelogomaker](https://myfreelogomaker.com/). Having the logo visible on all devices is important and therefore is shown on all devices on the left hand side of the navigation bar.
 ### Wireframes
 Wireframes can be found in the "assets" folder. It contains a design for the desktop and mobile version of the website.
 See links for PDF's below:
-1. mobile
-2. desktop
+1. [Mobile Wireframe](/assets/readme-content/wireframe-mobile.pdf)
+2. [Desktop Wireframe](/assets/readme-content/wireframe-dekstop.pdf)
 
 ### Design Deviations
 ## Limitations
