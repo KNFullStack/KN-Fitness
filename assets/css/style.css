@@ -215,6 +215,10 @@ nav {
     font-size: 4rem;
 }
 
+#query-type-label {
+    margin-bottom: 0.5rem;
+}
+
 /* "Footer" Section Styling */
 
 #socials {
@@ -232,3 +236,8 @@ nav {
 }
 
 /* testing */
+
+iframe {
+    width: 95%;
+    height: 60%;
+}

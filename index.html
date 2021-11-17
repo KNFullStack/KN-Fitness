@@ -354,13 +354,13 @@
             <div class="row text-center text-font mb-2">
                 <div class="col-lg-4"><img class="img-thumbnail" src="assets/images/gallery1.jpg"
                         alt="gym members laying on floor fist bumping after workout"></div>
-                <div class="col-lg-4 d-none d-lg-block"><img class="img-thumbnail" src="assets/images/gallery2.jpg"
+                <div class="d-none col-lg-4 d-lg-block"><img class="img-thumbnail" src="assets/images/gallery2.jpg"
                         alt="gym members laying on floor after workout"></div>
-                <div class="col-lg-4 d-none d-lg-block"><img class="img-thumbnail" src="assets/images/gallery3.jpg"
+                <div class="d-none col-lg-4 d-lg-block"><img class="img-thumbnail" src="assets/images/gallery3.jpg"
                         alt="rack dumbbells against a wall"></div>
             </div>
             <div class="row text-center text-font">
-                <div class="col-lg-4 d-none d-lg-block"><img class="img-thumbnail" src="assets/images/gallery4.jpg"
+                <div class="d-none col-lg-4 d-lg-block"><img class="img-thumbnail" src="assets/images/gallery4.jpg"
                         alt="breakfast bowl with various seeds and dried fruits"></div>
                 <div class="col-lg-4"><img class="img-thumbnail" src="assets/images/gallery5.jpg"
                         alt="weightlifting bumper plates laying on the floor"></div>
@@ -387,6 +387,14 @@
                         <input type="email" class="form-control" id="email" placeholder="Enter your email address"
                             required>
                     </div>
+                    <div class="mb-3">
+                        <label for="query-type" class="text-font" id="query-type-label">Select query type:</label>
+                        <select class="form-select" aria-label="query type selection" id="query-type" form="query-type">
+                            <option value="memberships">Memberships</option>
+                            <option value="personal-trainers">Personal Trainers</option>
+                            <option value="general">General Enquiry</option>
+                        </select>
+                    </div>
                     <div class="mb-5">
                         <label for="query" class="form-label text-font">Query</label>
                         <textarea class="form-control" id="query" rows="3" placeholder="Enter your query"
@@ -399,7 +407,7 @@
                     <p class="text-font">Tel: 01633 808808</p>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.530099329106!2d-2.976570684073057!3d51.57684731344382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDM0JzM2LjYiTiAywrA1OCcyNy44Ilc!5e0!3m2!1sen!2suk!4v1636301473869!5m2!1sen!2suk"
-                        width="351px" height="210px" title="google map showing location of the gym"></iframe>
+                        title="google map showing location of the gym"></iframe>
                 </div>
             </div>
         </div>

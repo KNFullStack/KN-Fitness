@@ -130,7 +130,7 @@ Currently there some limitations of the website. As shown below:
 
 # Features
 ## Current Features
-Some of the key features incorporated into the website include responsiveness for multiple screen sizes and orientations. A fixed top navigation bar to allow easy navigation between the page sections and the content, this helps reduce the amount of scrolling needed to get to different sections, especially on mobile. This navigation bar collapses on smaller screen sizes. Certain objects are also removed on smaller viewing windows to reduce the amount of scrolling required, such as reducing the number of gallery images. An embedded map is also present to highlight the location of the gym.
+Some of the key features incorporated into the website include responsiveness for multiple screen sizes and orientations. A fixed top navigation bar to allow easy navigation between the page sections and the content, this helps reduce the amount of scrolling needed to get to different sections, especially on mobile. This navigation bar collapses on smaller screen sizes. Certain objects are only visible on larger viewing windows to reduce the amount of scrolling required, such as increasing the number of of gallery images. An embedded map is also present to highlight the location of the gym.
 
 ## Future Features
 Features that could be released in subsequent versions include:
