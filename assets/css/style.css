@@ -103,25 +103,25 @@ nav {
     color: #fff;
 }
 
-@media (min-width:768px) {
+
+#hero-text-h1 {
+    font-size: clamp(6rem, 10vw, 12rem);
+    text-align: center;
+    padding-top: 20vh;
+}
+
+@media (min-width: 414px) {
     #hero-text-h1 {
-        font-size: 10rem;
-        text-align: center;
+        padding-top: none;
+        padding-bottom: 30vh;
     }
 }
 
-@media (max-width:768px) {
-    #hero-text-h1 {
-        font-size: 7rem;
-        text-align: center;
-    }
-}
-
-@media (max-width:768px) and (orientation: landscape) {
+/* @media (max-width:768px) and (orientation: landscape) {
     #hero-text-h1 {
         padding-top: 30vh;
     }
-}
+} */
 
 /* "Who are we?" Section Styling */
 
