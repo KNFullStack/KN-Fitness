@@ -143,10 +143,8 @@ nav {
     font-size: 4rem;
 }
 
-@media (max-width:768px) {
-    .bottom-layer-services h2 {
-        margin-top: 1rem;
-    }
+.bottom-layer-services h2 {
+    margin-top: 1rem;
 }
 
 @media (min-width:768px) {
@@ -177,16 +175,9 @@ nav {
     color: black;
 }
 
-@media (max-width:768px) {
-    .covid-icon i {
-        margin-top: 1rem;
-    }
-}
-
-@media (max-width:992px) {
-    .covid-icon p {
-        margin-bottom: 2rem;
-    }
+.covid-icon i {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 /* "Featured Product" Section Styling */
