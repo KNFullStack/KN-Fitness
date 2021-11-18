@@ -63,8 +63,22 @@ hr {
 /* Navbar Styling */
 
 #navbar-logo {
-    width: 180px;
-    height: 80px;
+    width: 90px;
+    height: 40px;
+}
+
+@media (orientation: landscape) {
+    #navbar-logo {
+        width: 90px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 576px) {
+    #navbar-logo {
+        width: 120px;
+        height: 60px;
+    }
 }
 
 nav {
@@ -117,11 +131,11 @@ nav {
     }
 }
 
-/* @media (max-width:768px) and (orientation: landscape) {
+@media (orientation: landscape) {
     #hero-text-h1 {
-        padding-top: 30vh;
+        padding-top: 150px;
     }
-} */
+}
 
 /* "Who are we?" Section Styling */
 
