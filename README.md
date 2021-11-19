@@ -105,11 +105,15 @@ The text throughout the website uses the **Roboto** font, while the headers use 
 ### Images
 The logo that has been created was made using [myfreelogomaker](https://myfreelogomaker.com/). Having the logo visible on all devices is important and therefore is shown on all devices on the left hand side of the navigation bar.
 ### Wireframes
-Wireframes can be found in the "assets" folder. It contains a design for the desktop and mobile version of the website.
+Wireframes images can be seen below and also found in the "/assets/readme-content" folder. It contains a design for the desktop and mobile version of the website.
+
+* Mobile: <br> ![Mobile Wireframe](assets/readme-content/mobile-wireframe.png)
+* Desktop: <br> ![Desktop Wireframe](assets/readme-content/desktop-wireframe.png)
+
 See links for PDF's below:
 1. [Mobile Wireframe](/assets/readme-content/wireframe-mobile.pdf)
 2. [Desktop Wireframe](/assets/readme-content/wireframe-desktop.pdf)
-    * Note - images not shown in README directly as the image dimensions are large.
+
 
 ### Design Deviations
 Compared to the original Wireframe there have been multiple deviations.
@@ -134,8 +138,9 @@ Some of the key features incorporated into the website include responsiveness fo
 
 ## Future Features
 Features that could be released in subsequent versions include:
-* Enquires being sent straight to personal trainers.
+* Enquires being sent straight to personal trainers instead of a general inbox.
 * An online shop for products, or a page to highlight current products and special offers.
+* A booking system to reserve space in classes.
 
 # Technologies
 Technologies used are as follows.
@@ -168,17 +173,16 @@ Technologies used are as follows.
 # Testing
 
 Due to the website having no backend functionality, the testing procedure is based on the visual aspect of the website. High level testing includes:
-* Running the website on 3 different browsers, Google Chrome, Mozilla Firefox and Opera.  
-* Ensuring the website has a responsiveness on multiple screen sizes, and is able to render correctly on different browser sizes. Chrome Dev Tools will be used to simulate different screen sizes. Screen sizes to be tested are a minimum of 375px in width and include:
-   * iPhone 6/7/8 in portrait and landscape views.
-   * iPad Pro in portrait and landscape views.
-   * Desktop view.
+* Running the website on 3 different browsers and simulating responsiveness on each, varying screen sizes will be simulated, ranging from a minimum width of 300px to a maximum width of 3000px:
+  * Google Chrome
+  * Mozilla Firefox
+  * Opera
 * No layout items in the containers overlapping other layout items.
 * Links in the navigation bar to take the user to the correct section.
 * External links to open in a new tab.
 * Contact form to require an input in each field prior to submission.
 
-provide link to an excel logging all my testing
+Test Results can be found here: [Test Results](/assets/readme-content/xxxx)
 
 ## Validation
 ### HTML Validation
