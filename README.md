@@ -103,7 +103,7 @@ The main colors for the website are black (#000000), white (#FFFFFF) and pastel-
 ### Typography
 The text throughout the website uses the **Roboto** font, while the headers use the **Bebas Neue** font.
 ### Images
-The logo that has been created was made using [myfreelogomaker](https://myfreelogomaker.com/). Having the logo visible on all devices is important and therefore is shown on all devices on the left hand side of the navigation bar.
+The logo that has been created was made using [myfreelogomaker](https://myfreelogomaker.com/). Having the logo visible on all devices is important and therefore is shown on all devices on the left hand side of the navigation bar. Images were obtained from users on [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/). See links to their profiles in the "Acknowledgements" section at the bottom of this README.
 ### Wireframes
 Wireframes images can be seen below and also found in the "/assets/readme-content" folder. It contains a design for the desktop and mobile version of the website.
 
@@ -152,11 +152,11 @@ Technologies used are as follows.
 
 ## Libraries, Frameworks & Programs Used
 1. [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-   * Multiple features of Bootstrap 5 were utilised to create the website. Including general layouts and responsiveness, the sticky navbar and collapsible links.
+   * Multiple features of Bootstrap 5 were utilised to create the website. Including grid system and responsiveness, the sticky navbar and collapsible links and to create the contact form.
 2. [Balsamiq](https://balsamiq.com/)
    * Used to create the wireframes when starting the design.
 3. [Font Awesome](https://fontawesome.com/)
-   * Use for multiple icons throughout the website. 
+   * Used for multiple icons throughout the website. 
 4. [Google Fonts](https://fonts.google.com/)
    * Used to incorporate the fonts "Bebas Neue" by Ryoichi Tsunekawa and "Roboto" by Christian Robertson.
 5. [Git](https://git-scm.com/)
@@ -227,7 +227,8 @@ How does the website design enable the goals of a first time, returning and freq
 
 ## Known Bugs
 1. Featured product image was not resizing correctly on smaller viewing windows. The image appeared distorted but has been corrected.
-   * Corrected by removing the height property in the image's ID selector. 
+   * Corrected by removing the height property in the image's ID selector.
+2. Fixed top navigation bar error when clicking links. Caused the user to be taken too far down the page. This was corrected by the using the CSS property "scroll-margin-top", which I learned about on [stackoverflow](https://stackoverflow.com/). See Acknowledgments for user who helped along with a link to the thread.
 
 ## Lighthouse Results
 ### Performance
@@ -247,20 +248,29 @@ Common Git commands were used as follows:
 * git status - used to check the tracking status of the file in the project.
 * git push - used to push the changes to the GitHub repository.
 
-
 ## Publishing
+To publish the project I performed the following steps:
 ## Local Clone
+To create a local clone of the project you can follow the steps below:
 
 # Acknowledgements
-mentor
+Would like to say thank you to my mentor Spencer Barriball for his help and guidance throughout the project.
 ## Code
-stack overflow for scroll effect going higher
+Fixed top navigation bar caused links to scroll down the page too far to view the relevant content. Learned about the CSS property "scroll-margin-top", thanks to user "Skeets" on [stackoverflow](https://stackoverflow.com/questions/11501025/div-anchors-scrolling-too-far). 
 ## Media
-thank xyz people for their images on pexels/unsplash
-## Help
-
+Many thanks to the image contributors of [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
+* "hero-image.jpg" courtesy of [Leon Ardho](https://www.pexels.com/@leonardho).
+* "crossfit.jpg" courtesy of [John Arano](https://unsplash.com/@johnarano).
+* "kettlebell-class.jpg" courtesy of [Ambitious Creative Co - Rick Barrett](https://unsplash.com/@weareambitious).
+* "squat-rack.jpg" courtesy of [Alexander Redl](https://unsplash.com/@alexanderredl).
+* "protein-bar.jpg" courtesy of [Hayley Maxwell](https://unsplash.com/@hayleymaxwell).
+* "gallery1.jpg" courtesy of [Victor Freitas](https://unsplash.com/@victorfreitas).
+* "gallery2.jpg" courtesy of [Victor Freitas](https://unsplash.com/@victorfreitas).
+* "gallery3.jpg" courtesy of [Ambitious Creative Co - Rick Barrett](https://unsplash.com/@weareambitious).
+* "gallery4.jpg" courtesy of [Dor Farber](https://unsplash.com/@dor_farber).
+* "gallery5.jpg" courtesy of [Jesper Aggergaard](https://unsplash.com/@aggergakker).
+* "gallery6.jpg" courtesy of [Francesca Hotchin](https://unsplash.com/@franhotchin).
+* "pt1.jpg" courtesy of [Jonathan Borba](https://unsplash.com/@jonathanborba).
+* "pt2.jpg" courtesy of [Rinke Dohmen](https://unsplash.com/@rinked).
+* "pt3.jpg" courtesy of [Omid Armin](https://unsplash.com/@omidarmin).
 # Further Comments
-
-
-https://github.com/Code-Institute-Solutions/SampleREADME
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
