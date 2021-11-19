@@ -181,8 +181,10 @@ Due to the website having no backend functionality, the testing procedure is bas
 * Links in the navigation bar to take the user to the correct section.
 * External links to open in a new tab.
 * Contact form to require an input in each field prior to submission.
+* Buttons display a hover effect.
+* Website is designed according to the wireframes made prior to coding.
 
-Test Results can be found here: [Test Results](/assets/readme-content/xxxx)
+Test Results can be found here: [Test Results](/assets/readme-content/test-result.xlsx)
 
 ## Validation
 ### HTML Validation
