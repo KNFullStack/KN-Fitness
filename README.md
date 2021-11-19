@@ -191,9 +191,44 @@ Test Results can be found here: [Test Results](/assets/readme-content/test-resul
 "index.html" was run through the [W3C HTML Validator](https://validator.w3.org/), via the direct input method. Errors regarding use of H1 elements throughout multiple sections and unclosed DIV elements were highlighted. Both these issues were corrected and putting "index.html" through the validator again now returns no errors or warnings.
 ### CSS Validation
 CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), via the direct input method and no errors were found.
-## User Scenarios
+## User Scenarios - Testing
+How does the website design enable the goals of a first time, returning and frequent user?<br>
+### First Time User
+* Understand where the gym is located and if that's a suitable location based on where I live, or my commute.
+  * Testing the "CONTACT" button takes the user to a section containing a map that shows the gym's location, along with the address.
+* Learn what type of gym-goer the gym is catered for, whether that's CrossFit type workouts, bodybuilding or cardio based workouts.
+  * "Who are we?" section appears after scrolling down and allows the user to get a feel for what the gym offers and working links allow easy navigation.
+* In light of COVID-19, how visitors can maintain safety and what measures are in place to mitigate risks.
+  * COVID-19 section showing the current rules in place at the gym with an external link that opens in a new tab for more information.
+* Any other facilities on site that would be of benefit to me.
+  * Also in the "Who are we?" section. Easily found by scrolling or the navigation bar.
+* The ability to easily navigate the website to find the information that is important.
+  * All links testing and working to allow the user to navigate easily through the pages.
+### Returning User
+* I'd want to know more about the prices.
+  * Working dropdown menu under "INFO" section of navigation bar displays a new link for "MEMBERSHIPS". All links tested and working.
+* I'd like to know if there are regular classes each day that I'd be interested in and what the schedule is.
+  * Working dropdown menu under "INFO" section of navigation bar displays a new link for "TIMETABLE". All links tested and working.
+* What the opening times are and if this fits my working patterns.
+  * Working dropdown menu under "INFO" section of navigation bar displays a new link for "OPENING TIMES". All links tested and working.
+* How to get in contact with the gym.
+  * Testing the "CONTACT" button takes the user to a contact form to be able to select their query type and send a message.
+* If there are any social media accounts to check out the gym further.
+  * The very bottom of the page display the social media accounts. These have been tested to ensure they open to the correct website and in a new tab.
+### Frequent User
+* If the timetable has changed regarding classes.
+  * Working dropdown menu under "INFO" section of navigation bar displays a new link for "TIMETABLE". All links tested and working.
+* If there are any new personal trainers that have joined the team.
+  * Working dropdown menu under "INFO" section of navigation bar displays a new link for "PERSONAL TRAINERS". All links tested and working.
+* A new featured product that I may be interested in.
+  * Large section in the "Who are we?" section that display information regading the current featured product along with some descriptive information.
+* If there have been new images added to the gallery.
+  * "GALLERY" link that takes the user quickly to the gallery section of the website. Link tested and working.
+
 ## Known Bugs
-what did i find and how did i fix them?
+1. Featured product image was not resizing correctly on smaller viewing windows. The image appeared distorted but has been corrected.
+   * Corrected by removing the height property in the image's ID selector. 
+
 ## Lighthouse Results
 ### Performance
 ### Accessibility
