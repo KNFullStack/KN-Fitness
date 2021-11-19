@@ -239,15 +239,24 @@ enquire now text was original white and this was flagged as an issue, therefore 
 
 # Deployment
 ## Project creation
-chrome addon, link to template, green gitpod button, etc
+To create the project, firstly a Chrome extension called "[Gitpod - Always ready to code](https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki?hl=en-GB)" was installed. A CodeInstitute template was use by navigating to the [GitHub Repo](https://github.com/Code-Institute-Org/gitpod-full-template) and clicking the "Use this template" button. The repository was named "KN-Fitness", the checkbox for "Include all branches" was checked and the green "Create repository from template" button was then clicked. From here, the green "GitPod" was then clicked (must use the above extension) and project folders and files created.
+
+Common Git commands were used as follows:
+* git add "filename-here" - used to stage files before commiting them.
+* git commit -m "message here" - used to commit changes to the local repositry, with the message containing information on the changes that have occured.
+* git status - used to check the tracking status of the file in the project.
+* git push - used to push the changes to the GitHub repository.
+
+
 ## Publishing
-## Forking
 ## Local Clone
 
 # Acknowledgements
+mentor
 ## Code
-## Content
+stack overflow for scroll effect going higher
 ## Media
+thank xyz people for their images on pexels/unsplash
 ## Help
 
 # Further Comments
