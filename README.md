@@ -228,7 +228,8 @@ How does the website design enable the goals of a first time, returning and freq
 ## Known Bugs
 1. Featured product image was not resizing correctly on smaller viewing windows. The image appeared distorted but has been corrected.
    * Corrected by removing the height property in the image's ID selector.
-2. Fixed top navigation bar error when clicking links. Caused the user to be taken too far down the page. This was corrected by the using the CSS property "scroll-margin-top", which I learned about on [stackoverflow](https://stackoverflow.com/). See Acknowledgments for user who helped along with a link to the thread.
+2. Fixed top navigation bar caused the user to be taken too far down the page when clicking links.
+   * This was corrected by the using the CSS property "scroll-margin-top", which I learned about on [stackoverflow](https://stackoverflow.com/). See Acknowledgments for details.
 
 ## Lighthouse Results
 ### Performance
