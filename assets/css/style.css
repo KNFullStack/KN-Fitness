@@ -119,15 +119,20 @@ nav {
 
 
 #hero-text-h1 {
-    font-size: clamp(7rem, 10vw, 12rem);
+    font-size: clamp(6rem, 10vw, 12rem);
     text-align: center;
     padding-top: 20vh;
 }
 
-@media (min-width: 414px) {
+@media (min-width: 391px) {
     #hero-text-h1 {
-        padding-top: none;
         padding-bottom: 30vh;
+    }
+}
+
+@media (min-width: 705px) {
+    #hero-text-h1 {
+        padding-bottom: 40vh;
     }
 }
 
@@ -139,11 +144,11 @@ nav {
 
 /* "Who are we?" Section Styling */
 
-#our-services h1 {
+#our-services h2 {
     font-size: 4rem;
 }
 
-.bottom-layer-services h2 {
+.bottom-layer-services h3 {
     margin-top: 1rem;
 }
 
@@ -182,7 +187,7 @@ nav {
 
 /* "Featured Product" Section Styling */
 
-#featured-product h1 {
+#featured-product h2 {
     font-size: 4rem;
 }
 
@@ -193,7 +198,7 @@ nav {
 
 /* "Timetable" Section Styling */
 
-#timetable h1 {
+#timetable h2 {
     font-size: 4rem;
 }
 
@@ -210,13 +215,13 @@ nav {
 
 /* "Gallery" Section Styling */
 
-#gallery h1 {
+#gallery h2 {
     font-size: 4rem;
 }
 
 /* "Contact Us" Section Styling */
 
-#contact-us h1 {
+#contact-us h2 {
     font-size: 4rem;
 }
 

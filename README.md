@@ -182,7 +182,9 @@ provide link to an excel logging all my testing
 
 ## Validation
 ### HTML Validation
+"index.html" was run through the [W3C HTML Validator](https://validator.w3.org/), via the direct input method. Errors regarding use of H1 elements throughout multiple sections and unclosed DIV elements were highlighted. Both these issues were corrected and putting "index.html" through the validator again now returns no errors or warnings.
 ### CSS Validation
+CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), via the direct input method and no errors were found.
 ## User Scenarios
 ## Known Bugs
 what did i find and how did i fix them?
