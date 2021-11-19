@@ -23,7 +23,7 @@
 
 #top-layer-services-heading,
 #bottom-layer-services-heading,
-#featured-product-heading {
+#featured-product-item {
     text-align: center;
 }
 
@@ -187,8 +187,12 @@ nav {
 
 /* "Featured Product" Section Styling */
 
-#featured-product h2 {
+#featured-product-heading {
     font-size: 4rem;
+}
+
+#featured-product-item {
+    font-size: 3rem;
 }
 
 /* "Timetable" Section Styling */
