@@ -171,6 +171,8 @@ Technologies used are as follows.
    * Used to test different CSS styles in the browser, inspect pages for more information about elements and general debugging.
 10. [favicon.cc](https://www.favicon.cc/)
    * Used to create the favicon.ico.
+11. [TinyJPG](https://www.tinyjpg.com/)
+   * Used to reduce the size of images used.
 
 # Testing
 
@@ -238,12 +240,9 @@ Images below show the Lighthouse results on both mobile and desktop:
 1. Mobile:<br>![Mobile Lighthouse](assets/readme-content/mobile-lighthouse.PNG)
 1. Desktop:<br>![Desktop Lighthouse](assets/readme-content/desktop-lighthouse.PNG)
 ### Performance
-Initially a lower score was given for the Performance category, which was 80. The cause for this was regarding image sizes. 
+Initially a lower score was given for the Performance category, which was 80. The cause for this was the image sizes. [TinyJPG](https://www.tinyjpg.com/) was used to reduce the file sizes of these images, which increased the score.
 ### Accessibility
-enquire now text was original white and this was flagged as an issue, therefore changed in CSS.
-### Best Practices
-### SEO
-
+The text of the "Enquire now!" button in the landing page was originally white. This was flagged as a contrast issue and therefore changed to black to make it easier to read.
 
 # Deployment
 ## Project creation
