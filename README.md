@@ -234,6 +234,7 @@ How does the website design enable the goals of a first time, returning and freq
    * Corrected by removing the height property in the image's ID selector.
 2. Fixed top navigation bar caused the user to be taken too far down the page when clicking links.
    * This was corrected by the using the CSS property "scroll-margin-top", which I learned about on [stackoverflow](https://stackoverflow.com/). See Acknowledgments for details.
+3. Navigation bar toggler was not collapsing once a link was clicked. Resolved with help on [stackoverflow](https://stackoverflow.com/). See Acknowledgments for details.
 
 ## Lighthouse Results
 Images below show the Lighthouse results on both mobile and desktop:
@@ -262,7 +263,9 @@ To create a local clone of the project you can follow the steps below:
 # Acknowledgements
 Would like to say thank you to my mentor Spencer Barriball for his help and guidance throughout the project.
 ## Code
-Fixed top navigation bar caused links to scroll down the page too far to view the relevant content. Learned about the CSS property "scroll-margin-top", thanks to user "Skeets" on [stackoverflow](https://stackoverflow.com/questions/11501025/div-anchors-scrolling-too-far). 
+Fixed top navigation bar caused links to scroll down the page too far to view the relevant content. Learned about the CSS property "scroll-margin-top", thanks to user "Skeets" on [stackoverflow](https://stackoverflow.com/questions/11501025/div-anchors-scrolling-too-far).
+<br>
+Navigation bar toggler did not have functionality initially. With help from user "Zim" on [stackoverflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click), this issue was addressed.
 ## Media
 Many thanks to the image contributors of [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
 * "hero-image.jpg" courtesy of [Leon Ardho](https://www.pexels.com/@leonardho).
