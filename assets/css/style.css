@@ -1,4 +1,5 @@
 /* General Styling */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 
 .title-font {
     font-family: 'Bebas Neue', sans-serif;
@@ -27,7 +28,6 @@
     text-align: center;
 }
 
-
 #top-layer-services-heading,
 #bottom-layer-services-heading {
     color: #B91546;
@@ -42,43 +42,28 @@
 }
 
 #our-services {
-    scroll-margin-top: 70px;
+    scroll-margin-top: 4rem;
 }
 
 #timetable,
 #gallery {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 5rem;
 }
 
 #opening-times-container,
 #membership-container,
 #personal-trainers-section {
-    scroll-margin-top: 110px;
+    scroll-margin-top: 7rem;
 }
 
 hr {
     color: black;
 }
 
-/* Navbar Styling */
-
+/* Navbar Styling - colors, sizes and hover effect */
 #navbar-logo {
-    width: 90px;
-    height: 50px;
-}
-
-@media (orientation: landscape) {
-    #navbar-logo {
-        width: 90px;
-        height: 30px;
-    }
-}
-
-@media (min-width: 576px) {
-    #navbar-logo {
-        width: 120px;
-        height: 60px;
-    }
+    width: 7.5rem;
+    height: 3rem;
 }
 
 nav {
@@ -102,10 +87,9 @@ nav {
     border-bottom: 1px solid black;
 }
 
-/* Hero Section Styling */
-
+/* Hero Section Styling - Background image & overlay and text sizing */
 #overlay-parent {
-    background: url(/assets/images/hero-image.jpg) no-repeat center center;
+    background: url(../images/hero-image.jpg) no-repeat center center;
     background-size: cover;
     height: 100vh;
 }
@@ -117,33 +101,13 @@ nav {
     color: #fff;
 }
 
-
 #hero-text-h1 {
     font-size: clamp(6rem, 10vw, 12rem);
     text-align: center;
     padding-top: 20vh;
 }
 
-@media (min-width: 391px) {
-    #hero-text-h1 {
-        padding-bottom: 30vh;
-    }
-}
-
-@media (min-width: 705px) {
-    #hero-text-h1 {
-        padding-bottom: 40vh;
-    }
-}
-
-@media (orientation: landscape) {
-    #hero-text-h1 {
-        padding-top: 200px;
-    }
-}
-
-/* "Who are we?" Section Styling */
-
+/* "Who are we?" Section Styling - heading font size and spacing */
 #our-services h2 {
     font-size: 4rem;
 }
@@ -152,16 +116,9 @@ nav {
     margin-top: 1rem;
 }
 
-@media (min-width:768px) {
-    #who-are-we-text {
-        font-size: 1.25rem;
-    }
-}
-
-/* "COVID" Section Styling */
-
+/* "COVID" Section Styling - icon styling and spacing, text styling and link hover effect */
 .covid-icon i {
-    font-size: 100px;
+    font-size: 6rem;
     margin-bottom: 1.5rem;
     color: #B91546;
 }
@@ -185,8 +142,7 @@ nav {
     margin-bottom: 2rem;
 }
 
-/* "Featured Product" Section Styling */
-
+/* "Featured Product" Section Styling - heading and subheading font size */
 #featured-product-heading {
     font-size: 4rem;
 }
@@ -195,14 +151,13 @@ nav {
     font-size: 3rem;
 }
 
-/* "Timetable" Section Styling */
-
+/* "Timetable" Section Styling - background image and overlay */
 #timetable h2 {
     font-size: 4rem;
 }
 
 #bg-image-timetable {
-    background: url(/assets/images/kettlebell-class.jpg) no-repeat center center;
+    background: url(../images/kettlebell-class.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -212,24 +167,26 @@ nav {
     margin: 0;
 }
 
-/* "Gallery" Section Styling */
-
+/* "Gallery" Section Styling - heading font size */
 #gallery h2 {
     font-size: 4rem;
 }
 
-/* "Contact Us" Section Styling */
-
+/* "Contact Us" Section Styling - heading font size, map responsive sizing and contact form spacing  */
 #contact-us h2 {
     font-size: 4rem;
 }
 
-#query-type-label {
-    margin-bottom: 0.5rem;
+iframe {
+    width: 95%;
+    height: 53%;
 }
 
-/* "Footer" Section Styling */
+#query-type-label {
+    margin-bottom: .5rem;
+}
 
+/* "Footer" Section Styling - social media link icon sizing, color and hover effect */
 #socials {
     border-top: 1px solid black;
 }
@@ -244,9 +201,39 @@ nav {
     color: black;
 }
 
-/* testing */
+/* Media Queries */
+@media (orientation: landscape) {
+    #navbar-logo {
+        width: 5.8rem;
+        height: 2rem;
+    }
 
-iframe {
-    width: 95%;
-    height: 60%;
+    #hero-text-h1 {
+        padding-top: 12rem;
+    }
+}
+
+@media (min-width: 391px) {
+    #hero-text-h1 {
+        padding-bottom: 30vh;
+    }
+}
+
+@media (min-width: 576px) {
+    #navbar-logo {
+        width: 7.5rem;
+        height: 4rem;
+    }
+}
+
+@media (min-width: 705px) {
+    #hero-text-h1 {
+        padding-bottom: 40vh;
+    }
+}
+
+@media (min-width:768px) {
+    #who-are-we-text {
+        font-size: 1.25rem;
+    }
 }

@@ -1,4 +1,4 @@
-![KN-Fitness logo](/assets/images/kn-fitness-logo-small.png) 
+![KN-Fitness logo](assets/images/kn-fitness-logo-small.png) 
 # Milestone Project 1 - KN Fitness
 # Table of Contents
 * [Introduction](https://github.com/KNFullStack/KN-Fitness#introduction)
@@ -169,6 +169,8 @@ Technologies used are as follows.
    * Used to generate the mockup image in this README file, see above.
 9. [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
    * Used to test different CSS styles in the browser, inspect pages for more information about elements and general debugging.
+10. [favicon.cc](https://www.favicon.cc/)
+   * Used to create the favicon.ico.
 
 # Testing
 
