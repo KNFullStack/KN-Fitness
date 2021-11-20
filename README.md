@@ -15,9 +15,9 @@
     * [Wireframes](https://github.com/KNFullStack/KN-Fitness#wireframes)
     * [Design Deviations](https://github.com/KNFullStack/KN-Fitness#design-deviations)
   * [Limitations](https://github.com/KNFullStack/KN-Fitness#limitations)
-* [Features]()
-  * [Current Features]()
-  * [Future Features]()
+* [Features](https://github.com/KNFullStack/KN-Fitness#features)
+  * [Current Features](https://github.com/KNFullStack/KN-Fitness#current-features)
+  * [Future Features](https://github.com/KNFullStack/KN-Fitness#future-features)
 * [Technologies](https://github.com/KNFullStack/KN-Fitness#technologies)
   * [Languages](https://github.com/KNFullStack/KN-Fitness#languages)
   * [Libraries, Frameworks & Programs Used](https://github.com/KNFullStack/KN-Fitness#libraries-frameworks--programs-used)
@@ -234,7 +234,11 @@ How does the website design enable the goals of a first time, returning and freq
    * This was corrected by the using the CSS property "scroll-margin-top", which I learned about on [stackoverflow](https://stackoverflow.com/). See Acknowledgments for details.
 
 ## Lighthouse Results
+Images below show the Lighthouse results on both mobile and desktop:
+1. Mobile:<br>![Mobile Lighthouse](assets/readme-content/mobile-lighthouse.PNG)
+1. Desktop:<br>![Desktop Lighthouse](assets/readme-content/desktop-lighthouse.PNG)
 ### Performance
+Initially a lower score was given for the Performance category, which was 80. The cause for this was regarding image sizes. 
 ### Accessibility
 enquire now text was original white and this was flagged as an issue, therefore changed in CSS.
 ### Best Practices
