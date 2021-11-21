@@ -26,14 +26,17 @@
     * [HTML Validation](https://github.com/KNFullStack/KN-Fitness#html-validation)
     * [CSS Validation](https://github.com/KNFullStack/KN-Fitness#css-validation)
   * [User Scenarios - Testing](https://github.com/KNFullStack/KN-Fitness#user-scenarios---testing)
+    * [First Time User](https://github.com/KNFullStack/KN-Fitness#first-time-user)
+    * [Returning User](https://github.com/KNFullStack/KN-Fitness#returning-user)
+    * [Frequent User](https://github.com/KNFullStack/KN-Fitness#frequent-user)
   * [Known Bugs](https://github.com/KNFullStack/KN-Fitness#known-bugs)
   * [Lighthouse Results](https://github.com/KNFullStack/KN-Fitness#lighthouse-results)
     * [Performance](https://github.com/KNFullStack/KN-Fitness#performance)
     * [Accessibility](https://github.com/KNFullStack/KN-Fitness#accessibility)
- * [Deployment](https://github.com/KNFullStack/KN-Fitness#deployment)
-  * [Project Creation](https://github.com/KNFullStack/KN-Fitness#project-creation)
-  * [Publishing](https://github.com/KNFullStack/KN-Fitness#publishing)
-  * [Local Clone](https://github.com/KNFullStack/KN-Fitness#local-clone)
+* [Deployment](https://github.com/KNFullStack/KN-Fitness#deployment)
+   * [Project Creation](https://github.com/KNFullStack/KN-Fitness#project-creation)
+   * [Publishing](https://github.com/KNFullStack/KN-Fitness#publishing)
+   * [Local Clone](https://github.com/KNFullStack/KN-Fitness#local-clone)
 * [Acknowledgements](https://github.com/KNFullStack/KN-Fitness#acknowledgements)
   * [Code](https://github.com/KNFullStack/KN-Fitness#code)
   * [Media](https://github.com/KNFullStack/KN-Fitness#media)
@@ -207,20 +210,20 @@ How does the website design enable the goals of a first time, returning and freq
   * All links testing and working to allow the user to navigate easily through the pages.
 ### Returning User
 * I'd want to know more about the prices.
-  * Working dropdown menu under "INFO" section of navigation bar displays a new link for "MEMBERSHIPS". All links tested and working.
+  * Working navigation bar displays a link for "MEMBERSHIPS". All links tested and working.
 * I'd like to know if there are regular classes each day that I'd be interested in and what the schedule is.
-  * Working dropdown menu under "INFO" section of navigation bar displays a new link for "TIMETABLE". All links tested and working.
+  * Working navigation bar displays a link for "TIMETABLE". All links tested and working.
 * What the opening times are and if this fits my working patterns.
-  * Working dropdown menu under "INFO" section of navigation bar displays a new link for "OPENING TIMES". All links tested and working.
+  * Working navigation bar displays a link for "OPENING TIMES". All links tested and working.
 * How to get in contact with the gym.
   * Testing the "CONTACT" button takes the user to a contact form to be able to select their query type and send a message.
 * If there are any social media accounts to check out the gym further.
   * The very bottom of the page display the social media accounts. These have been tested to ensure they open to the correct website and in a new tab.
 ### Frequent User
 * If the timetable has changed regarding classes.
-  * Working dropdown menu under "INFO" section of navigation bar displays a new link for "TIMETABLE". All links tested and working.
+  * Working navigation bar displays a link for "TIMETABLE". All links tested and working.
 * If there are any new personal trainers that have joined the team.
-  * Working dropdown menu under "INFO" section of navigation bar displays a new link for "PERSONAL TRAINERS". All links tested and working.
+  * Working navigation bar displays a link for "PERSONAL TRAINERS". All links tested and working.
 * A new featured product that I may be interested in.
   * Large section in the "Who are we?" section that display information regading the current featured product along with some descriptive information.
 * If there have been new images added to the gallery.
