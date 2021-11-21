@@ -25,23 +25,18 @@
   * [Validation](https://github.com/KNFullStack/KN-Fitness#validation)
     * [HTML Validation](https://github.com/KNFullStack/KN-Fitness#html-validation)
     * [CSS Validation](https://github.com/KNFullStack/KN-Fitness#css-validation)
-  * [User Scenarios](https://github.com/KNFullStack/KN-Fitness#user-scenarios)
+  * [User Scenarios - Testing](https://github.com/KNFullStack/KN-Fitness#user-scenarios---testing)
   * [Known Bugs](https://github.com/KNFullStack/KN-Fitness#known-bugs)
   * [Lighthouse Results](https://github.com/KNFullStack/KN-Fitness#lighthouse-results)
     * [Performance](https://github.com/KNFullStack/KN-Fitness#performance)
     * [Accessibility](https://github.com/KNFullStack/KN-Fitness#accessibility)
-    * [Best Practices](https://github.com/KNFullStack/KN-Fitness#best-practices)
-    * [SEO](https://github.com/KNFullStack/KN-Fitness#seo)
-* [Deployment](https://github.com/KNFullStack/KN-Fitness#deployment)
+ * [Deployment](https://github.com/KNFullStack/KN-Fitness#deployment)
+  * [Project Creation](https://github.com/KNFullStack/KN-Fitness#project-creation)
   * [Publishing](https://github.com/KNFullStack/KN-Fitness#publishing)
-  * [Forking](https://github.com/KNFullStack/KN-Fitness#forking)
   * [Local Clone](https://github.com/KNFullStack/KN-Fitness#local-clone)
 * [Acknowledgements](https://github.com/KNFullStack/KN-Fitness#acknowledgements)
   * [Code](https://github.com/KNFullStack/KN-Fitness#code)
-  * [Content](https://github.com/KNFullStack/KN-Fitness#content)
   * [Media](https://github.com/KNFullStack/KN-Fitness#media)
-  * [Help](https://github.com/KNFullStack/KN-Fitness#help)
-* [Further Comments](https://github.com/KNFullStack/KN-Fitness#further-comments)
 
 You can find the published website here: [KN Fitness](link here)
 # Introduction
@@ -248,7 +243,7 @@ Initially a lower score was given for the Performance category, which was 80. Th
 The text of the "Enquire now!" button in the landing page was originally white. This was flagged as a contrast issue and therefore changed to black to make it easier to read.
 
 # Deployment
-## Project creation
+## Project Creation
 To create the project, firstly a Chrome extension called "[Gitpod - Always ready to code](https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki?hl=en-GB)" was installed. A CodeInstitute template was use by navigating to the [GitHub Repo](https://github.com/Code-Institute-Org/gitpod-full-template) and clicking the "Use this template" button. The repository was named "KN-Fitness", the checkbox for "Include all branches" was checked and the green "Create repository from template" button was then clicked. From here, the green "GitPod" was then clicked (must use the above extension) and project folders and files created.
 
 Common Git commands were used as follows:
@@ -284,6 +279,4 @@ Many thanks to the image contributors of [Pexels](https://www.pexels.com/) and [
 * "pt1.jpg" courtesy of [Jonathan Borba](https://unsplash.com/@jonathanborba).
 * "pt2.jpg" courtesy of [Rinke Dohmen](https://unsplash.com/@rinked).
 * "pt3.jpg" courtesy of [Omid Armin](https://unsplash.com/@omidarmin).
-* "tyre-flip.mp4" courtesy of [mixkit](
-https://mixkit.co/free-stock-video/muscular-man-doing-crossfit-exercises-23353/).
-# Further Comments
+* "tyre-flip.mp4" courtesy of [mixkit](https://mixkit.co/free-stock-video/muscular-man-doing-crossfit-exercises-23353/).
