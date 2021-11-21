@@ -103,7 +103,7 @@ The main colors for the website are black (#000000), white (#FFFFFF) and pastel-
 ### Typography
 The text throughout the website uses the **Roboto** font, while the headers use the **Bebas Neue** font.
 ### Images
-The logo that has been created was made using [myfreelogomaker](https://myfreelogomaker.com/). Having the logo visible on all devices is important and therefore is shown on all devices on the left hand side of the navigation bar. Images were obtained from users on [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/). See links to their profiles in the "Acknowledgements" section at the bottom of this README.
+The logo that has been created was made using [myfreelogomaker](https://myfreelogomaker.com/). Having the logo visible on all devices is important and therefore is shown on all devices on the left hand side of the navigation bar. Images were obtained from users on [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/), while the video was obtained from [mixkit](https://mixkit.co). See links to their profiles in the "Acknowledgements" section at the bottom of this README.
 ### Wireframes
 Wireframes images can be seen below and also found in the "/assets/readme-content" folder. It contains a design for the desktop and mobile version of the website.
 
@@ -170,9 +170,11 @@ Technologies used are as follows.
 9. [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
    * Used to test different CSS styles in the browser, inspect pages for more information about elements and general debugging.
 10. [favicon.cc](https://www.favicon.cc/)
-   * Used to create the favicon.ico.
+    * Used to create the favicon.ico.
 11. [TinyJPG](https://www.tinyjpg.com/)
-   * Used to reduce the size of images used.
+    * Used to reduce the size of images used.
+12. [FreeConvert](https://www.freeconvert.com/video-compressor/)
+    * Used to compress the video file that is used in the gallery section.
 
 # Testing
 
@@ -267,7 +269,7 @@ Fixed top navigation bar caused links to scroll down the page too far to view th
 <br>
 Navigation bar toggler did not have functionality initially. With help from user "Zim" on [stackoverflow](https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click), this issue was addressed.
 ## Media
-Many thanks to the image contributors of [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
+Many thanks to the image contributors of [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) and the video from [mixkit](https://mixkit.co).
 * "hero-image.jpg" courtesy of [Leon Ardho](https://www.pexels.com/@leonardho).
 * "crossfit.jpg" courtesy of [John Arano](https://unsplash.com/@johnarano).
 * "kettlebell-class.jpg" courtesy of [Ambitious Creative Co - Rick Barrett](https://unsplash.com/@weareambitious).
@@ -282,4 +284,6 @@ Many thanks to the image contributors of [Pexels](https://www.pexels.com/) and [
 * "pt1.jpg" courtesy of [Jonathan Borba](https://unsplash.com/@jonathanborba).
 * "pt2.jpg" courtesy of [Rinke Dohmen](https://unsplash.com/@rinked).
 * "pt3.jpg" courtesy of [Omid Armin](https://unsplash.com/@omidarmin).
+* "tyre-flip.mp4" courtesy of [mixkit](
+https://mixkit.co/free-stock-video/muscular-man-doing-crossfit-exercises-23353/).
 # Further Comments
