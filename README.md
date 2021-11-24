@@ -41,18 +41,16 @@
   * [Code](https://github.com/KNFullStack/KN-Fitness#code)
   * [Media](https://github.com/KNFullStack/KN-Fitness#media)
 
-You can find the published website here: [KN Fitness](link here)
+You can find the published website here: [KN Fitness](https://knfullstack.github.io/KN-Fitness/index.html).
 # Introduction
 
 The project is part of a Full Stack Developer course run by CodeInstitute. This is Milestone Project 1. This project was to create a website for a local, family run gym that is looking to reach out to new potential members in order to encourage more visits and memberships.
 
 ## KN Fitness Responsive Website
 
-http://techsini.com/multi-mockup/index.php replace images below with this.
-
 A mockup of the website can be seen below:
 
-![Website Mockup Image](/assets/images/landing-page-mobile-portrait.PNG)
+![Website Mockup Image](assets/readme-content/mockup.PNG)
 
 # User Experience Design
 ## User Stories
@@ -109,8 +107,8 @@ Wireframes images can be seen below and also found in the "/assets/readme-conten
 * Desktop: <br> ![Desktop Wireframe](assets/readme-content/desktop-wireframe.png)
 
 See links for PDF's below:
-1. [Mobile Wireframe](/assets/readme-content/wireframe-mobile.pdf)
-2. [Desktop Wireframe](/assets/readme-content/wireframe-desktop.pdf)
+1. [Mobile Wireframe](assets/readme-content/wireframe-mobile.pdf)
+2. [Desktop Wireframe](assets/readme-content/wireframe-desktop.pdf)
 
 
 ### Design Deviations
@@ -257,9 +255,18 @@ Common Git commands were used as follows:
 
 ## Publishing
 To publish the project I performed the following steps:
+1. Navigated to the project's [Github page](https://github.com/KNFullStack/KN-Fitness).
+2. Clicked on the "Settings" button.
+3. Clicked on the "Pages" button.
+4. Under the "Source" heading, changed the "Branch" setting from "None" to "Main", then clicked save.
+5. This gave a link to the [published website](https://knfullstack.github.io/KN-Fitness/).
 ## Local Clone
 To create a local clone of the project you can follow the steps below:
-
+1. Navigate to the project's [Github page](https://github.com/KNFullStack/KN-Fitness).
+2. Click the "Code" dropdown button.
+3. From here there are two options:
+     * Option 1: Click the "Download ZIP" button to download the files. This can be unzipped locally and opened with your preferred IDE.
+     * Option 2: Copy the link from the HTTPS box shown. Then open your preferred IDE of choice and in the terminal window of your preferred directory, use the command "git clone" followed by the link that was copied. For example "git clone https://github.com/KNFullStack/KN-Fitness.git". This will clone the files in the selected directory.
 # Acknowledgements
 Would like to say thank you to my mentor Spencer Barriball for his help and guidance throughout the project.
 ## Code
