@@ -233,6 +233,7 @@ How does the website design enable the goals of a first time, returning and freq
 2. Fixed top navigation bar caused the user to be taken too far down the page when clicking links.
    * This was corrected by the using the CSS property "scroll-margin-top", which I learned about on [stackoverflow](https://stackoverflow.com/). See Acknowledgments for details.
 3. Navigation bar toggler was not collapsing once a link was clicked. Resolved with help on [stackoverflow](https://stackoverflow.com/). See Acknowledgments for details.
+4. Favicon was working when opening up a live server through GitPod using the "python3 -m http.server" command, however once deployed it was not displaying. The following page was used for help: [SEOptimer](https://www.seoptimer.com/blog/favicon-not-showing-up/).
 
 ## Lighthouse Results
 Images below show the Lighthouse results on both mobile and desktop:
